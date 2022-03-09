@@ -178,6 +178,7 @@ export default {
   &__title {
     p {
       color: #d51c5f;
+      font-size: 18px;
     }
   }
 }

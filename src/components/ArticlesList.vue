@@ -82,10 +82,10 @@ export default {
     display: flex;
     flex-direction: column;
     place-content: end;
-    border: 1px solid #eee;
+    border: 1px solid #d9e4ff;
     border-radius: 26px;
     overflow: hidden;
-    box-shadow: 0px 5px 0px 0px rgba(238, 238, 238, 0.8);
+    box-shadow: 0px 5px 0px 0px rgba(217, 228, 255, 0.6);
 
     figure {
       margin: 0;

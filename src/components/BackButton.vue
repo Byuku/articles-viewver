@@ -16,11 +16,10 @@ export default {
 <style lang="scss" scoped>
 button {
   background-color: #ffffff;
-  border: 1px solid;
+  border: 1px solid #d9e4ff;
   font-size: 15px;
   padding: 0.6rem 2rem;
   border-radius: 26px;
-  border: none;
   font-family: "Nunito", sans-serif;
 
   &:hover,
