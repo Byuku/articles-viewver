@@ -142,6 +142,7 @@ export default {
       }
 
       &__item {
+        background-color: #ffffff;
         border: 1px solid #eee;
         border-radius: 26px;
         padding: 2rem;

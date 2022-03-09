@@ -17,6 +17,7 @@
 
 body {
   margin: 0;
+  background-color: #f8faff;
 }
 
 .container {
