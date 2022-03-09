@@ -67,7 +67,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 30px;
-  padding: 40px 15px;
+  padding: 80px 15px 40px;
 
   @media screen and (min-width: 992px) {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -122,6 +122,7 @@ export default {
 
     &__title {
       text-decoration: none;
+      font-size: 18px;
 
       &:hover {
         color: #d51c5f;
