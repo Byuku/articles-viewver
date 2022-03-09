@@ -23,7 +23,8 @@ button {
   border: 1px solid #ddd;
   font-family: "Nunito", sans-serif;
 
-  &:hover {
+  &:hover,
+  &:focus {
     color: #fff;
     background-color: #04cdc4;
     border: 1px solid #04cdc4;

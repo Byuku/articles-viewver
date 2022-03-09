@@ -97,13 +97,13 @@ export default {
 <style lang="scss" scoped>
 .details {
   text-align: left;
-  padding: 0 15px;
 
   img {
     max-width: 150px;
     width: 100%;
     height: auto;
   }
+
   p {
     margin: 0;
   }
@@ -112,23 +112,19 @@ export default {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 250px;
     margin-bottom: 40px;
+    width: 100%;
 
     @media screen and (min-width: 992px) {
       height: 350px;
     }
   }
+
   &__body {
-    padding-top: 40px;
+    padding: 40px 15px;
   }
-  &__content {
-    img {
-      width: 100%;
-      max-width: 600px;
-      height: auto;
-    }
-  }
+
   &__partners {
     padding-top: 40px;
 
@@ -167,9 +163,6 @@ export default {
         flex: none;
       }
 
-      &__name {
-      }
-
       &__phone {
         padding-top: 20px;
       }
@@ -180,6 +173,7 @@ export default {
       }
     }
   }
+
   &__title {
     p {
       color: #d51c5f;
